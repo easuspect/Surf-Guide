@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F51D773D63665BC0CC257F0 /* Pods_Deneme_DenemeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2102ABEB284D82D0FDA21A /* Pods_Deneme_DenemeUITests.framework */; };
+		3D2772965BA22E7738B63E8F /* Pods_Deneme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C37AB326B8980DDB152E63A /* Pods_Deneme.framework */; };
+		9B26161B3805FDA5505004CB /* Pods_DenemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0BD976774C67D65EA65745 /* Pods_DenemeTests.framework */; };
+		D726D71427B5A9E70090BEF1 /* Onboarding1.json in Resources */ = {isa = PBXBuildFile; fileRef = D726D71127B5A9E70090BEF1 /* Onboarding1.json */; };
+		D726D71527B5A9E70090BEF1 /* Onboarding3.json in Resources */ = {isa = PBXBuildFile; fileRef = D726D71227B5A9E70090BEF1 /* Onboarding3.json */; };
+		D726D71627B5A9E70090BEF1 /* Onboarding2.json in Resources */ = {isa = PBXBuildFile; fileRef = D726D71327B5A9E70090BEF1 /* Onboarding2.json */; };
+		D735334427AB23C800D1F568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735334327AB23C800D1F568 /* AppDelegate.swift */; };
+		D735334D27AB23CD00D1F568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D735334C27AB23CD00D1F568 /* Assets.xcassets */; };
+		D735335027AB23CD00D1F568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D735334E27AB23CD00D1F568 /* LaunchScreen.storyboard */; };
+		D735335B27AB23CD00D1F568 /* DenemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735335A27AB23CD00D1F568 /* DenemeTests.swift */; };
+		D735336527AB23CD00D1F568 /* DenemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735336427AB23CD00D1F568 /* DenemeUITests.swift */; };
+		D735336727AB23CD00D1F568 /* DenemeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735336627AB23CD00D1F568 /* DenemeUITestsLaunchTests.swift */; };
+		D735337527AB240100D1F568 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735337427AB240100D1F568 /* CityViewController.swift */; };
+		D735337827AB2E8100D1F568 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735337727AB2E8100D1F568 /* CityDetailViewController.swift */; };
+		D75ECAF427ADA901007A32ED /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75ECAF327ADA901007A32ED /* CityModel.swift */; };
+		D75ECAF627ADB20B007A32ED /* CityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75ECAF527ADB20B007A32ED /* CityListViewController.swift */; };
+		D75ECAF927ADB62E007A32ED /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75ECAF827ADB62E007A32ED /* CityTableViewCell.swift */; };
+		D7A8E2A427B591ED00ACCD8B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8E2A327B591ED00ACCD8B /* Extensions.swift */; };
+		D7A8E2A827B5987D00ACCD8B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8E2A727B5987D00ACCD8B /* OnboardingViewController.swift */; };
+		D7A8E2AA27B598AA00ACCD8B /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A8E2A927B598AA00ACCD8B /* Onboarding.storyboard */; };
+		D7C4A3CF27B59D24000CDF78 /* City.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C4A3CE27B59D24000CDF78 /* City.storyboard */; };
+		D7C4A3D327B59FF4000CDF78 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4A3D227B59FF4000CDF78 /* OnboardingCollectionViewCell.swift */; };
+		D7C4A3D527B5A1A0000CDF78 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4A3D427B5A1A0000CDF78 /* OnboardingModel.swift */; };
+		D7F7C0EA27B79FA300DEDE31 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7C0E927B79FA300DEDE31 /* SplashViewController.swift */; };
+		D7F7C0EC27B79FB500DEDE31 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F7C0EB27B79FB500DEDE31 /* Splash.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D735335727AB23CD00D1F568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D735333827AB23C800D1F568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D735333F27AB23C800D1F568;
+			remoteInfo = Deneme;
+		};
+		D735336127AB23CD00D1F568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D735333827AB23C800D1F568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D735333F27AB23C800D1F568;
+			remoteInfo = Deneme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C37AB326B8980DDB152E63A /* Pods_Deneme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deneme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDBEADE4ED062BC5FD0674A /* Pods-DenemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DenemeTests.release.xcconfig"; path = "Target Support Files/Pods-DenemeTests/Pods-DenemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A2102ABEB284D82D0FDA21A /* Pods_Deneme_DenemeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deneme_DenemeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73984C32A397005C8D9F33C6 /* Pods-DenemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DenemeTests.debug.xcconfig"; path = "Target Support Files/Pods-DenemeTests/Pods-DenemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E5996B088356585CD50E40E /* Pods-Deneme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deneme.debug.xcconfig"; path = "Target Support Files/Pods-Deneme/Pods-Deneme.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0BD976774C67D65EA65745 /* Pods_DenemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DenemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD72A4E225749F60F063861E /* Pods-Deneme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deneme.release.xcconfig"; path = "Target Support Files/Pods-Deneme/Pods-Deneme.release.xcconfig"; sourceTree = "<group>"; };
+		D726D71127B5A9E70090BEF1 /* Onboarding1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding1.json; sourceTree = "<group>"; };
+		D726D71227B5A9E70090BEF1 /* Onboarding3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding3.json; sourceTree = "<group>"; };
+		D726D71327B5A9E70090BEF1 /* Onboarding2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding2.json; sourceTree = "<group>"; };
+		D735334027AB23C800D1F568 /* Deneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D735334327AB23C800D1F568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D735334C27AB23CD00D1F568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D735334F27AB23CD00D1F568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D735335127AB23CD00D1F568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D735335627AB23CD00D1F568 /* DenemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D735335A27AB23CD00D1F568 /* DenemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeTests.swift; sourceTree = "<group>"; };
+		D735336027AB23CD00D1F568 /* DenemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D735336427AB23CD00D1F568 /* DenemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeUITests.swift; sourceTree = "<group>"; };
+		D735336627AB23CD00D1F568 /* DenemeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D735337427AB240100D1F568 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		D735337727AB2E8100D1F568 /* CityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		D75ECAF327ADA901007A32ED /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		D75ECAF527ADB20B007A32ED /* CityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListViewController.swift; sourceTree = "<group>"; };
+		D75ECAF827ADB62E007A32ED /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		D7A8E2A327B591ED00ACCD8B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D7A8E2A727B5987D00ACCD8B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		D7A8E2A927B598AA00ACCD8B /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		D7C4A3CE27B59D24000CDF78 /* City.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = City.storyboard; sourceTree = "<group>"; };
+		D7C4A3D227B59FF4000CDF78 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7C4A3D427B5A1A0000CDF78 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		D7F7C0E927B79FA300DEDE31 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		D7F7C0EB27B79FB500DEDE31 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		F132A062AFF3339C13E4ADA8 /* Pods-Deneme-DenemeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deneme-DenemeUITests.release.xcconfig"; path = "Target Support Files/Pods-Deneme-DenemeUITests/Pods-Deneme-DenemeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC36F3BDB48034D9869BEC13 /* Pods-Deneme-DenemeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deneme-DenemeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Deneme-DenemeUITests/Pods-Deneme-DenemeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D735333D27AB23C800D1F568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2772965BA22E7738B63E8F /* Pods_Deneme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735335327AB23CD00D1F568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B26161B3805FDA5505004CB /* Pods_DenemeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735335D27AB23CD00D1F568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F51D773D63665BC0CC257F0 /* Pods_Deneme_DenemeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CE12E7673C43085C35284B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C37AB326B8980DDB152E63A /* Pods_Deneme.framework */,
+				3A2102ABEB284D82D0FDA21A /* Pods_Deneme_DenemeUITests.framework */,
+				BC0BD976774C67D65EA65745 /* Pods_DenemeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		106BA46CBD1E583C14C3E38C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E5996B088356585CD50E40E /* Pods-Deneme.debug.xcconfig */,
+				BD72A4E225749F60F063861E /* Pods-Deneme.release.xcconfig */,
+				FC36F3BDB48034D9869BEC13 /* Pods-Deneme-DenemeUITests.debug.xcconfig */,
+				F132A062AFF3339C13E4ADA8 /* Pods-Deneme-DenemeUITests.release.xcconfig */,
+				73984C32A397005C8D9F33C6 /* Pods-DenemeTests.debug.xcconfig */,
+				0EDBEADE4ED062BC5FD0674A /* Pods-DenemeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D735333727AB23C800D1F568 = {
+			isa = PBXGroup;
+			children = (
+				D735334227AB23C800D1F568 /* Deneme */,
+				D735335927AB23CD00D1F568 /* DenemeTests */,
+				D735336327AB23CD00D1F568 /* DenemeUITests */,
+				D735334127AB23C800D1F568 /* Products */,
+				106BA46CBD1E583C14C3E38C /* Pods */,
+				05CE12E7673C43085C35284B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D735334127AB23C800D1F568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D735334027AB23C800D1F568 /* Deneme.app */,
+				D735335627AB23CD00D1F568 /* DenemeTests.xctest */,
+				D735336027AB23CD00D1F568 /* DenemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D735334227AB23C800D1F568 /* Deneme */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7C0E827B79F8400DEDE31 /* Splash */,
+				D7A8E2A527B5982B00ACCD8B /* Onboarding */,
+				D735337327AB23E300D1F568 /* City */,
+				D735334327AB23C800D1F568 /* AppDelegate.swift */,
+				D7A8E2A327B591ED00ACCD8B /* Extensions.swift */,
+				D735334C27AB23CD00D1F568 /* Assets.xcassets */,
+				D735334E27AB23CD00D1F568 /* LaunchScreen.storyboard */,
+				D735335127AB23CD00D1F568 /* Info.plist */,
+			);
+			path = Deneme;
+			sourceTree = "<group>";
+		};
+		D735335927AB23CD00D1F568 /* DenemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D735335A27AB23CD00D1F568 /* DenemeTests.swift */,
+			);
+			path = DenemeTests;
+			sourceTree = "<group>";
+		};
+		D735336327AB23CD00D1F568 /* DenemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D735336427AB23CD00D1F568 /* DenemeUITests.swift */,
+				D735336627AB23CD00D1F568 /* DenemeUITestsLaunchTests.swift */,
+			);
+			path = DenemeUITests;
+			sourceTree = "<group>";
+		};
+		D735337327AB23E300D1F568 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				D75ECAF227ADA8D8007A32ED /* Models */,
+				D75ECAF727ADB5E6007A32ED /* Views */,
+				D735337627AB2E4600D1F568 /* ViewController */,
+				D7C4A3CE27B59D24000CDF78 /* City.storyboard */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		D735337627AB2E4600D1F568 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D735337427AB240100D1F568 /* CityViewController.swift */,
+				D735337727AB2E8100D1F568 /* CityDetailViewController.swift */,
+				D75ECAF527ADB20B007A32ED /* CityListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D75ECAF227ADA8D8007A32ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D75ECAF327ADA901007A32ED /* CityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D75ECAF727ADB5E6007A32ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D75ECAF827ADB62E007A32ED /* CityTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7A8E2A527B5982B00ACCD8B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A3D627B5A815000CDF78 /* Animations */,
+				D7C4A3D127B59E34000CDF78 /* Views */,
+				D7C4A3D027B59E26000CDF78 /* Models */,
+				D7A8E2A627B5984700ACCD8B /* ViewController */,
+				D7A8E2A927B598AA00ACCD8B /* Onboarding.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D7A8E2A627B5984700ACCD8B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8E2A727B5987D00ACCD8B /* OnboardingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D7C4A3D027B59E26000CDF78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A3D427B5A1A0000CDF78 /* OnboardingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7C4A3D127B59E34000CDF78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A3D227B59FF4000CDF78 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7C4A3D627B5A815000CDF78 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				D726D71127B5A9E70090BEF1 /* Onboarding1.json */,
+				D726D71327B5A9E70090BEF1 /* Onboarding2.json */,
+				D726D71227B5A9E70090BEF1 /* Onboarding3.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		D7F7C0E827B79F8400DEDE31 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7C0E927B79FA300DEDE31 /* SplashViewController.swift */,
+				D7F7C0EB27B79FB500DEDE31 /* Splash.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D735333F27AB23C800D1F568 /* Deneme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D735336A27AB23CD00D1F568 /* Build configuration list for PBXNativeTarget "Deneme" */;
+			buildPhases = (
+				8748AE6B67D8FAA89DAF28E9 /* [CP] Check Pods Manifest.lock */,
+				D735333C27AB23C800D1F568 /* Sources */,
+				D735333D27AB23C800D1F568 /* Frameworks */,
+				D735333E27AB23C800D1F568 /* Resources */,
+				0F994425D214189F413E3CFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deneme;
+			productName = Deneme;
+			productReference = D735334027AB23C800D1F568 /* Deneme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D735335527AB23CD00D1F568 /* DenemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D735336D27AB23CD00D1F568 /* Build configuration list for PBXNativeTarget "DenemeTests" */;
+			buildPhases = (
+				3D224BA21759994767A9D076 /* [CP] Check Pods Manifest.lock */,
+				D735335227AB23CD00D1F568 /* Sources */,
+				D735335327AB23CD00D1F568 /* Frameworks */,
+				D735335427AB23CD00D1F568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D735335827AB23CD00D1F568 /* PBXTargetDependency */,
+			);
+			name = DenemeTests;
+			productName = DenemeTests;
+			productReference = D735335627AB23CD00D1F568 /* DenemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D735335F27AB23CD00D1F568 /* DenemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D735337027AB23CD00D1F568 /* Build configuration list for PBXNativeTarget "DenemeUITests" */;
+			buildPhases = (
+				DEF75D108CA35833B87ED976 /* [CP] Check Pods Manifest.lock */,
+				D735335C27AB23CD00D1F568 /* Sources */,
+				D735335D27AB23CD00D1F568 /* Frameworks */,
+				D735335E27AB23CD00D1F568 /* Resources */,
+				EFA89B70CDF2CBA794DA2B59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D735336227AB23CD00D1F568 /* PBXTargetDependency */,
+			);
+			name = DenemeUITests;
+			productName = DenemeUITests;
+			productReference = D735336027AB23CD00D1F568 /* DenemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D735333827AB23C800D1F568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D735333F27AB23C800D1F568 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D735335527AB23CD00D1F568 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D735333F27AB23C800D1F568;
+					};
+					D735335F27AB23CD00D1F568 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D735333F27AB23C800D1F568;
+					};
+				};
+			};
+			buildConfigurationList = D735333B27AB23C800D1F568 /* Build configuration list for PBXProject "Deneme" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D735333727AB23C800D1F568;
+			productRefGroup = D735334127AB23C800D1F568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D735333F27AB23C800D1F568 /* Deneme */,
+				D735335527AB23CD00D1F568 /* DenemeTests */,
+				D735335F27AB23CD00D1F568 /* DenemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D735333E27AB23C800D1F568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735335027AB23CD00D1F568 /* LaunchScreen.storyboard in Resources */,
+				D735334D27AB23CD00D1F568 /* Assets.xcassets in Resources */,
+				D7C4A3CF27B59D24000CDF78 /* City.storyboard in Resources */,
+				D7F7C0EC27B79FB500DEDE31 /* Splash.storyboard in Resources */,
+				D726D71427B5A9E70090BEF1 /* Onboarding1.json in Resources */,
+				D726D71527B5A9E70090BEF1 /* Onboarding3.json in Resources */,
+				D7A8E2AA27B598AA00ACCD8B /* Onboarding.storyboard in Resources */,
+				D726D71627B5A9E70090BEF1 /* Onboarding2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735335427AB23CD00D1F568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735335E27AB23CD00D1F568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F994425D214189F413E3CFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deneme/Pods-Deneme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deneme/Pods-Deneme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deneme/Pods-Deneme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D224BA21759994767A9D076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DenemeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8748AE6B67D8FAA89DAF28E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deneme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF75D108CA35833B87ED976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deneme-DenemeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA89B70CDF2CBA794DA2B59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deneme-DenemeUITests/Pods-Deneme-DenemeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deneme-DenemeUITests/Pods-Deneme-DenemeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deneme-DenemeUITests/Pods-Deneme-DenemeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D735333C27AB23C800D1F568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75ECAF427ADA901007A32ED /* CityModel.swift in Sources */,
+				D75ECAF927ADB62E007A32ED /* CityTableViewCell.swift in Sources */,
+				D735337827AB2E8100D1F568 /* CityDetailViewController.swift in Sources */,
+				D7A8E2A427B591ED00ACCD8B /* Extensions.swift in Sources */,
+				D735334427AB23C800D1F568 /* AppDelegate.swift in Sources */,
+				D735337527AB240100D1F568 /* CityViewController.swift in Sources */,
+				D7C4A3D527B5A1A0000CDF78 /* OnboardingModel.swift in Sources */,
+				D7A8E2A827B5987D00ACCD8B /* OnboardingViewController.swift in Sources */,
+				D75ECAF627ADB20B007A32ED /* CityListViewController.swift in Sources */,
+				D7C4A3D327B59FF4000CDF78 /* OnboardingCollectionViewCell.swift in Sources */,
+				D7F7C0EA27B79FA300DEDE31 /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735335227AB23CD00D1F568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735335B27AB23CD00D1F568 /* DenemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735335C27AB23CD00D1F568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735336727AB23CD00D1F568 /* DenemeUITestsLaunchTests.swift in Sources */,
+				D735336527AB23CD00D1F568 /* DenemeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D735335827AB23CD00D1F568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D735333F27AB23C800D1F568 /* Deneme */;
+			targetProxy = D735335727AB23CD00D1F568 /* PBXContainerItemProxy */;
+		};
+		D735336227AB23CD00D1F568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D735333F27AB23C800D1F568 /* Deneme */;
+			targetProxy = D735336127AB23CD00D1F568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D735334E27AB23CD00D1F568 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D735334F27AB23CD00D1F568 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D735336827AB23CD00D1F568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D735336927AB23CD00D1F568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D735336B27AB23CD00D1F568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5996B088356585CD50E40E /* Pods-Deneme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H6JZ85CK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Deneme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgatelseren.Deneme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D735336C27AB23CD00D1F568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD72A4E225749F60F063861E /* Pods-Deneme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H6JZ85CK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Deneme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgatelseren.Deneme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D735336E27AB23CD00D1F568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73984C32A397005C8D9F33C6 /* Pods-DenemeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H6JZ85CK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgatelseren.DenemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deneme.app/Deneme";
+			};
+			name = Debug;
+		};
+		D735336F27AB23CD00D1F568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EDBEADE4ED062BC5FD0674A /* Pods-DenemeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H6JZ85CK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgatelseren.DenemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deneme.app/Deneme";
+			};
+			name = Release;
+		};
+		D735337127AB23CD00D1F568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC36F3BDB48034D9869BEC13 /* Pods-Deneme-DenemeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H6JZ85CK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgatelseren.DenemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Deneme;
+			};
+			name = Debug;
+		};
+		D735337227AB23CD00D1F568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F132A062AFF3339C13E4ADA8 /* Pods-Deneme-DenemeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H6JZ85CK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgatelseren.DenemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Deneme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D735333B27AB23C800D1F568 /* Build configuration list for PBXProject "Deneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D735336827AB23CD00D1F568 /* Debug */,
+				D735336927AB23CD00D1F568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D735336A27AB23CD00D1F568 /* Build configuration list for PBXNativeTarget "Deneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D735336B27AB23CD00D1F568 /* Debug */,
+				D735336C27AB23CD00D1F568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D735336D27AB23CD00D1F568 /* Build configuration list for PBXNativeTarget "DenemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D735336E27AB23CD00D1F568 /* Debug */,
+				D735336F27AB23CD00D1F568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D735337027AB23CD00D1F568 /* Build configuration list for PBXNativeTarget "DenemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D735337127AB23CD00D1F568 /* Debug */,
+				D735337227AB23CD00D1F568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D735333827AB23C800D1F568 /* Project object */;
+}

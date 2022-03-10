@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="SplashViewController" customModule="Deneme" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Manuel Antonio Beach" translatesAutoresizingMaskIntoConstraints="NO" id="YHX-hR-bfC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YHX-hR-bfC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="3Ca-SL-wdj"/>
+                            <constraint firstAttribute="bottom" secondItem="YHX-hR-bfC" secondAttribute="bottom" id="ONZ-2g-q58"/>
+                            <constraint firstItem="YHX-hR-bfC" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="iWn-X2-TbR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YHX-hR-bfC" secondAttribute="trailing" id="oab-5o-Zbk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="1NV-YT-0nU" kind="show" identifier="ShowOnboarding" id="LZN-MK-w9t"/>
+                        <segue destination="mGN-9E-j18" kind="show" identifier="ShowCity" id="oH9-vh-yqx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15.942028985507248" y="41.517857142857139"/>
+        </scene>
+        <!--Onboarding-->
+        <scene sceneID="4Gl-iO-9uP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboarding" id="1NV-YT-0nU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="npk-8P-Kmb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w11-Jo-lw2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763" y="-15"/>
+        </scene>
+        <!--City-->
+        <scene sceneID="ZCe-9B-bo9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="City" id="mGN-9E-j18" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="eJh-2J-Kh1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Biw-54-hfe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Manuel Antonio Beach" width="2902" height="5165"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
